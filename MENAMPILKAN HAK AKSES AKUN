@@ -1,0 +1,1 @@
+SHOW GRANTS FOR 'baiq_baca_kampus'@'localhost';
