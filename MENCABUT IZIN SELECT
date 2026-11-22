@@ -1,0 +1,2 @@
+REVOKE SELECT ON db_baiqsitirabiah_uji.* FROM 'baiq_baca_kampus'@'localhost';
+SHOW GRANTS FOR 'baiq_baca_kampus'@'localhost';
