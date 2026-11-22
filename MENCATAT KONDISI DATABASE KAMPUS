@@ -1,0 +1,20 @@
+Perintah 1: pilih database kampus
+USE db_baiqsitirabiah;
+
+Perintah 2: cek database yang sedang aktif
+SELECT DATABASE();
+
+Perintah 3: tampilkan daftar tabel (hasil: 8 tabel)
+SHOW TABLES;
+
+Perintah 4: jumlah data tabel mahasiswa (hasil: 24)
+SELECT COUNT(*) AS jumlah_mahasiswa FROM mahasiswa;
+
+Perintah 5: jumlah data tabel dosen (hasil: 15)
+SELECT COUNT(*) AS jumlah_dosen FROM dosen;
+
+Perintah 6: jumlah data tabel nilai (hasil: 18)
+SELECT COUNT(*) AS jumlah_nilai FROM nilai;
+
+
+-- 
