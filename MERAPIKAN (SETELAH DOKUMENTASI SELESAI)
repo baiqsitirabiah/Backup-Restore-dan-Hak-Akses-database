@@ -1,0 +1,2 @@
+hapus akun percobaan
+DROP USER 'baiq_baca_kampus'@'localhost';
