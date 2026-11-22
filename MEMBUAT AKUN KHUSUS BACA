@@ -1,0 +1,1 @@
+CREATE USER 'baiq_baca_kampus'@'localhost' IDENTIFIED BY 'Rabiah#DB9_Uji26';
