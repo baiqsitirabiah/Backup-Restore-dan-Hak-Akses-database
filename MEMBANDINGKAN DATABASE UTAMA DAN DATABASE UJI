@@ -1,0 +1,31 @@
+Perintah 8: daftar tabel database utama
+SHOW TABLES FROM db_baiqsitirabiah;
+
+Perintah 9: daftar tabel database uji (harus sama dengan database utama)
+SHOW TABLES FROM db_baiqsitirabiah_uji;
+
+Perintah 10: bandingkan jumlah data tabel mahasiswa (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.mahasiswa) AS jumlah_utama_mahasiswa, (SELECT COUNT() FROM db_baiqsitirabiah_uji.mahasiswa) AS jumlah_uji_mahasiswa;
+
+Perintah 11: bandingkan jumlah data tabel dosen (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.dosen) AS jumlah_utama_dosen, (SELECT COUNT() FROM db_baiqsitirabiah_uji.dosen) AS jumlah_uji_dosen;
+
+Perintah 12: bandingkan jumlah data tabel mata_kuliah (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.mata_kuliah) AS jumlah_utama_mata_kuliah, (SELECT COUNT() FROM db_baiqsitirabiah_uji.mata_kuliah) AS jumlah_uji_mata_kuliah;
+
+Perintah 13: bandingkan jumlah data tabel kelas_kuliah (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.kelas_kuliah) AS jumlah_utama_kelas_kuliah, (SELECT COUNT() FROM db_baiqsitirabiah_uji.kelas_kuliah) AS jumlah_uji_kelas_kuliah;
+
+Perintah 14: bandingkan jumlah data tabel krs (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.krs) AS jumlah_utama_krs, (SELECT COUNT() FROM db_baiqsitirabiah_uji.krs) AS jumlah_uji_krs;
+
+Perintah 15: bandingkan jumlah data tabel nilai (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.nilai) AS jumlah_utama_nilai, (SELECT COUNT() FROM db_baiqsitirabiah_uji.nilai) AS jumlah_uji_nilai;
+
+Perintah 16: bandingkan jumlah data tabel prodi (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.prodi) AS jumlah_utama_prodi, (SELECT COUNT() FROM db_baiqsitirabiah_uji.prodi) AS jumlah_uji_prodi;
+
+Perintah 17: bandingkan jumlah data tabel program_studi (utama vs uji)
+SELECT (SELECT COUNT() FROM db_baiqsitirabiah.program_studi) AS jumlah_utama_program_studi, (SELECT COUNT() FROM db_baiqsitirabiah_uji.program_studi) AS jumlah_uji_program_studi;
+
+
